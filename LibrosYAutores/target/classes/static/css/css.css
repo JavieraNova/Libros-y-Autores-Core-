@@ -1,0 +1,102 @@
+@charset "UTF-8";  /* Establece la codificación de caracteres para el archivo CSS */
+
+/* Estilo global para la página */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    background-color: #f0f0f5; 
+    color: #333;  
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;  
+}
+
+h1, h2 {
+    color: #3a3a3a;  
+    text-align: center;  
+    margin-bottom: 20px;  
+}
+
+a {
+    text-decoration: none;  /* Elimina el subrayado */
+    color: #3498db;  
+}
+
+a:hover {
+    text-decoration: underline;  /* Subrayado al pasar el mouse */
+    color: #2980b9;  
+}
+
+/* Estilo para la lista de libros */
+ul {
+    list-style-type: none;  
+    padding: 0;  
+}
+
+ul li {
+    background-color: #fff;  
+    padding: 10px;  
+    border-radius: 5px; 
+    margin-bottom: 10px;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.2s;
+}
+
+
+/* Estilo para formularios */
+form {
+    background-color: #ffffff; 
+    padding: 30px;  
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  
+    max-width: 400px;  
+    margin: 20px auto;  
+}
+
+label {
+    display: block;  
+    font-weight: bold;  /* Texto en negrita */
+    margin-bottom: 8px;  
+}
+
+input[type="text"] {
+    width: 100%;  
+    padding: 10px; 
+    margin-bottom: 15px;  
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);  
+}
+
+/* Estilo para los botones */
+button {
+    background-color: #3498db; 
+    color: white; 
+    border: none;  
+    padding: 10px 15px;  
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px;  
+    transition: background-color 0.3s ease;  /* Transición del color de fondo */
+}
+
+button:hover {
+    background-color: #2980b9;  /* Color de fondo más oscuro cuando se hace hover */
+}
+
+/* Contenedor principal para centrar el contenido */
+.container {
+    max-width: 800px; 
+    margin: 0 auto;  
+    padding: 0 20px;  
+}
+
+/* Mensaje de error o advertencia */
+.message {
+    background-color: #ffefef; 
+    padding: 15px; 
+    border: 1px solid #e74c3c;  
+    color: #e74c3c; 
+    border-radius: 5px;  
+    text-align: center;  
+    margin-bottom: 20px;  
+}
